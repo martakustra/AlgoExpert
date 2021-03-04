@@ -9,9 +9,9 @@ public:
 };
 
 int findClosestValueInBst(BST *tree, int target) {
-  int distance = 0, closest = 0, dist_clos = 0, value = 0;
+	int distance = 0, closest = 0, dist_clos = 0, value = 0;
 	value = tree->value;
-	distance = abs(tree->value - target);
+	distance = abs(value - target);
 	dist_clos = distance;
 	
 	auto *ptr = tree;

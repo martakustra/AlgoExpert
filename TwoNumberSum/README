@@ -1,0 +1,9 @@
+Functions returns a vector consists of two numbers (in any order) in the array sum up to the target sum.
+if no two numbers sum up to the target sum, function should return an empty arraty.
+
+Example:
+INPUT:
+aaray = [3, 5, -4, 8, 11, 1, -1, 6]
+targetSum = 10
+
+OUTPUT: (-1, 11)

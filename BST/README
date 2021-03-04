@@ -1,0 +1,15 @@
+Function finds the closest value to the target value in the Binary Search Tree (BST).
+
+Example:
+INPUT:
+tree = 10
+      /  \
+     5    15
+    / \   / \
+   2   5 13  22
+  /        \
+ 1          14
+ 
+ target = 12
+ 
+OUTPUT: 13
